@@ -1,15 +1,3 @@
-"""
-tests/test_state.py
-
-Validation tests for the shared state definition.
-
-These tests are fast and deterministic, they do NOT call Ollama.
-They verify that the data structures work correctly before any
-agents are built on top of them.
-
-Run: python -m pytest tests/test_state.py -v
-"""
-
 import pytest
 
 from src.graph.state import (
